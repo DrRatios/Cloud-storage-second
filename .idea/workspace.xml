@@ -4,37 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1445fe95-c24b-4bc3-b57e-6636eee7559c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-storage-client/src/main/java/com/aleksgolds/client/ClientApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-storage-client/src/main/java/com/aleksgolds/client/ClientCommandReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-storage-client/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-storage-common/src/main/java/com/aleksgolds/common/FileList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-storage-server/src/main/java/com/aleksgolds/server/ServerCommandReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-storage-server/src/main/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-storage-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/aleksgolds/cloud/storage/client/CLientApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/aleksgolds/cloud/storage/client/ClientCommandReceiver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/aleksgolds/cloud/storage/client/Network.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-storage-client/src/main/java/com/aleksgolds/client/Network.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client_repository/2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-storage-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/aleksgolds/cloud/storage/common/CommandReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-storage-common/src/main/java/com/aleksgolds/common/CommandReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/aleksgolds/cloud/storage/common/CommandsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-storage-common/src/main/java/com/aleksgolds/common/CommandsList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/aleksgolds/cloud/storage/common/DBAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-storage-common/src/main/java/com/aleksgolds/common/DBAuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/aleksgolds/cloud/storage/common/FileReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-storage-common/src/main/java/com/aleksgolds/common/FileReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/aleksgolds/cloud/storage/common/ProtoFileSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-storage-common/src/main/java/com/aleksgolds/common/ProtoFileSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/aleksgolds/cloud/storage/common/ProtoHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-storage-common/src/main/java/com/aleksgolds/common/ProtoHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/aleksgolds/cloud/storage/common/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-storage-common/src/main/java/com/aleksgolds/common/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-storage-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/aleksgolds/cloud/storage/server/AuthHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-storage-server/src/main/java/com/aleksgolds/server/AuthHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/aleksgolds/cloud/storage/server/ProtoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-storage-server/src/main/java/com/aleksgolds/server/ProtoServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/aleksgolds/cloud/storage/server/ServerCommandReceiver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server_repository/1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server_repository/2.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="1445fe95-c24b-4bc3-b57e-6636eee7559c" name="Changes" comment="Не запушилось изначально всё, добавил реквест файлов хранилища сервера!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="DrRatios &lt;aleksgolds7@yandex.ru&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -159,12 +134,26 @@
       <updated>1732649007991</updated>
       <workItem from="1732649009064" duration="4000" />
       <workItem from="1733239342465" duration="5012000" />
-      <workItem from="1733392238112" duration="16396000" />
+      <workItem from="1733392238112" duration="17056000" />
     </task>
+    <task id="LOCAL-00001" summary="Не запушилось изначально всё, добавил реквест файлов хранилища сервера">
+      <option name="closed" value="true" />
+      <created>1733409339797</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733409339797</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Не запушилось изначально всё, добавил реквест файлов хранилища сервера" />
+    <option name="LAST_COMMIT_MESSAGE" value="Не запушилось изначально всё, добавил реквест файлов хранилища сервера" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
